@@ -2,6 +2,8 @@
 
 Keep an OpenCode session working until a Ralph completion promise is satisfied.
 
+This is intended to bring the official Claude Code Ralph Wiggum plugin workflow to OpenCode.
+
 Ralph runs inside the current OpenCode session. When the session goes idle, the plugin continues that same session with the original prompt until the loop is cancelled, reaches an optional iteration limit, or the assistant outputs the exact completion promise.
 
 ## Install
