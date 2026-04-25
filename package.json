@@ -25,7 +25,7 @@
     "LICENSE.md"
   ],
   "scripts": {
-    "build": "rm -rf dist && bun build src/index.ts --outdir dist --target bun --format esm --packages external",
+    "build": "rm -rf dist && bun build src/index.ts --outdir dist --target bun --format esm --packages external --minify --sourcemap=external",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "bun run build && changeset publish",
